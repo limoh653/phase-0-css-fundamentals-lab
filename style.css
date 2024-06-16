@@ -2,4 +2,41 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  ;
 }
+h1{
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+#featured-property {
+  display:block;
+  text-align: center;
+}
+#details{
+  display: flex;
+  background-color: chocolate;
+  justify-content: center;
+}
+#box{
+  flex: 1;
+  width: 25%;
+}
+nav a{
+  padding: 0 10px;
+  background-color: dimgrey ;
+}
+
+.description{
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+}
+figcaption{
+  font-size: small;
+  text-align: center;
+}
+
+
